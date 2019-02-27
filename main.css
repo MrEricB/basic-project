@@ -1,0 +1,32 @@
+body {
+    /* background-color:rgb(235, 11, 11); */
+}
+
+
+
+.navbar {
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, .66) !important;
+}
+/* needs to auto scroll through */
+/* needs to have click through  */
+.btn-circle {
+    width:15px;
+    height: 15px;
+    padding: 6px 0;
+    border-radius: 10px;
+    background-color: darkgray;
+  }
+
+  .img-carousel {
+    border-radius: 50%;
+  }
+
+  img {
+    height: 500px;
+  }
+
+
+
+
+
