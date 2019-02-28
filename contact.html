@@ -39,8 +39,50 @@
     <!-- contact form -->
     <div class="container">
             <div class="jumbotron text-center">
-                <h1>contact</h1>
+                <h1>Lets Us Know</h1>
             </div>
+    </div>
+    <!-- <div class="container">
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST" id="emailform">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Submit" class="btn btn-warning">
+        </form>
+        <textarea name="body" id="" cols="30" rows="10" name="comment" form="emailform" placeholder="Tell us what you think!"></textarea>
+
+    </div> -->
+    <div class="container">
+
+    
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST">
+                <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name">
+                </div>
+                <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="your@email.com" name="email">
+                </div>
+                <div class="form-group">
+                <label for="favbeer">Your favorite beer</label>
+                <select class="form-control" id="favbeer" name="favbeer">
+                    <option>No Beer for Me</option>
+                    <option>Stinky Dogs IPA</option>
+                    <option>Biting Salmon Lager</option>
+                    <option>Shaken Mandness Stout</option>
+                    <option>Magic Or Gal Ale</option>
+                </select>
+                </div>
+                <div class="form-group">
+                <label for="body">Let us know what you think</label>
+                <textarea class="form-control" id="body" rows="3" name="body"></textarea>
+                </div>
+                <div class="form-group">
+                        <input type="submit" class="btn btn-warning" value="submit">
+                </div>
+            </form>
         </div>
 
     <script src="main.js"></script>

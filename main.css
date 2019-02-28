@@ -1,6 +1,6 @@
-body {
-    /* background-color:rgb(235, 11, 11); */
-}
+/* body {
+    background-color:rgb(235, 11, 11);
+} */
 
 
 
@@ -8,8 +8,7 @@ body {
     min-height: 100px;
     background-color: rgba(0, 0, 0, .66) !important;
 }
-/* needs to auto scroll through */
-/* needs to have click through  */
+
 .btn-circle {
     width:15px;
     height: 15px;
@@ -23,10 +22,19 @@ body {
   }
 
   img {
+    margin-top: 5px;
     height: 500px;
   }
 
 
+  /* about page */
+
+  div.scrollbox {
+    background-color: aqua;
+    width: 33%;
+    height: 250px;
+    overflow: scroll;
+  }
 
 
 
